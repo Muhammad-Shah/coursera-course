@@ -1,0 +1,101 @@
+/* HEADER */
+
+.navbar-brand h1 {
+  font-family: "Lora", serif;
+  color: #557c8e;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 10px;
+  margin-bottom: 0;
+  line-height: 0.75;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list li {
+  background: gray;
+  border: 1px solid snow;
+}
+
+#nav-list a {
+  color: #b1a7aa;
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background: #e7e7e7;
+  color: #3d3b3e;
+  border: 1px solid #951c49;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+
+button {
+  position: absolute;
+  top: 0px;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+/* HOME PAGE */
+.chicken h2,
+.menu-sec h2 {
+  font-weight: bold;
+}
+.menu-sec section {
+  margin: 10px 30px;
+  padding: 10px 30px;
+  background-color: #557c8e;
+}
+
+/* ************** Large Devices ************** */
+@media (min-width: 1200px) {
+  .navbar {
+    padding-bottom: 20px;
+  }
+}
+
+/* ************** Medium Devices ************* */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  .nav {
+    margin-bottom: 50px;
+  }
+
+  /* END HEADER */
+}
+/* ************** Small Devices ************** */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* HOME PAGE */
+}
+/* ************** Extra Small Devices ************** */
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand h1 {
+    /*Resturent name*/
+    padding-top: 10px;
+    font-size: 4vw;
+  }
+  /* END HEADER */
+  /* HOME PAGE */
+}
+
+/* Super extra small devices  */
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 {
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+}
