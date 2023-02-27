@@ -1,5 +1,7 @@
 /* HEADER */
-
+* {
+  box-sizing: border-box;
+}
 .navbar-brand h1 {
   font-family: "Lora", serif;
   color: #557c8e;
@@ -11,19 +13,17 @@
   margin-bottom: 0;
   line-height: 0.75;
 }
-
 .navbar-brand a:hover,
 .navbar-brand a:focus {
   text-decoration: none;
 }
-
 #nav-list li {
   background: gray;
   border: 1px solid snow;
 }
 
 #nav-list a {
-  color: #b1a7aa;
+  color: #ffffff;
   text-align: center;
 }
 
@@ -53,10 +53,12 @@ button {
 .menu-sec h2 {
   font-weight: bold;
 }
-.menu-sec section {
-  margin: 10px 30px;
-  padding: 10px 30px;
-  background-color: #557c8e;
+
+div section {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(152, 152, 152);
+  text-align: justify;
 }
 
 /* ************** Large Devices ************** */
@@ -99,3 +101,4 @@ button {
     font-size: 6vw;
   }
 }
+
